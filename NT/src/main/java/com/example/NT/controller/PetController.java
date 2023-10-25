@@ -6,12 +6,13 @@ import com.example.NT.logic.PetModel;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicInteger;
-import java.util.function.LongToIntFunction;
+
 
 @RestController
-public class Controller {
+public class PetController {
     private static final PetModel petModel = PetModel.getInstance();
     private static final AtomicInteger newId = new AtomicInteger(1);
 
@@ -42,6 +43,8 @@ public class Controller {
     public void deletePet(@PathVariable int id) {
         petModel.delete(id);
     }
+
+
 
 
 }

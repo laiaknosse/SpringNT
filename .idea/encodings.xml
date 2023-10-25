@@ -2,7 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/NT/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/NT/src/main/java/com/example/NT/controller/Controller.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/NT/src/main/java/com/example/NT/controller/PetController.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/NT/src/main/java/com/example/NT/logic/Pet.java" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/NT/src/main/java/com/example/NT/logic/PetModel.java" charset="windows-1251" />
   </component>
